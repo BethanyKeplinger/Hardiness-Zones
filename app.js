@@ -27,7 +27,7 @@ submitButton.addEventListener('click', async () => {
             <div class="zoneDisplay">
             <h2> Your Growing Zone </h2>
             <span><strong>Zone:</strong> ${result.zone} </span>
-            <span><strong>Temperature Range:</strong> ${result.temperature_range}</span>
+            <span><strong>Average Minimum Temperature Extremes Range:</strong> ${result.temperature_range}</span>
             <span><strong>Lattitude:</strong> ${result.coordinates.lat}</span>
             <span><strong>Longitude:</strong> ${result.coordinates.lon}</span>
         `
