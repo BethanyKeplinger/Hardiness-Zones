@@ -32,7 +32,7 @@ h1 {
 .zoneDisplay {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 #resultsContainer {
